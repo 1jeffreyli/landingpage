@@ -3,13 +3,18 @@
     font-size: 14px;
 }
 
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
     padding: 15px;
-    margin: 15px;
 }
 
 .header-logo{
