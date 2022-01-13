@@ -4,9 +4,11 @@
 }
 
 .wrapper{
-    max-width: 1170px;
+    /* max-width: 1170px;
     margin: 0 auto;
-    background-color: lightgrey;
+    background-color: lightgrey; */
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .header {
@@ -24,7 +26,7 @@
 }
 
 .logo{
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -36,4 +38,22 @@
 .header-link {
     text-decoration: none;
     color: #f9faf8;
+}
+
+.main{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
 }
