@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 .wrapper{
@@ -12,10 +12,10 @@
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
     padding: 15px;
 }
 
@@ -36,8 +36,9 @@
 }
 
 .header-link {
+    font-size: 18px;
     text-decoration: none;
-    color: #f9faf8;
+    color: #E5E7EB;
 }
 
 .main{
