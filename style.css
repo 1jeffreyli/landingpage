@@ -48,6 +48,10 @@
     flex-flow: row nowrap;
 }
 
+.main-image img{
+   height: 250px;
+}
+
 .hero{
     font-size: 48px;
     font-weight: bolder;
@@ -57,4 +61,14 @@
 .hero-second {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
