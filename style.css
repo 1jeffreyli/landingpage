@@ -91,6 +91,7 @@
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
+    gap: 10px;
 }
 
 .cards img{
@@ -98,6 +99,33 @@
     border-radius: 8px;
     width: 100px;
     height: auto;
+}
+
+/*Figure out how to center the img subtext*/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 20px;
+}
+
+.quote blockquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+.quote figcaption{
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-right: 45px;
 }
 
 .footer{
