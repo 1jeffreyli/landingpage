@@ -153,23 +153,37 @@
 
 .CTA{
     background-color:#3882F6;
-    color: #F9FAF8;
+    color: #E5E7EB;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin: 50px;
+    padding: 10px 25px;
     border-radius: 8px;
 }
 
 .CTA-text{
+    margin: 0;
+    padding: 10px;
+}
+
+.CTA-text h2{
+    margin: 0;
+    padding: 0p;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.CTA-text p{
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
 
 .CTA-button{
     background-color: #3882F6;
-    color: #F9FAF8;
-    border-color: #F9FAF8;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
     border-radius: 8px;
     border-style:solid;
 }
