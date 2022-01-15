@@ -4,9 +4,9 @@
 }
 
 .wrapper{
-    /* max-width: 1170px;
-    margin: 0 auto;
-    background-color: lightgrey; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -45,8 +45,10 @@
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: center;
+    gap: 25px;
     flex-flow: row nowrap;
-    padding: 45px 0px;
+    padding: 45px 40px;
 }
 
 .main button{
@@ -57,9 +59,14 @@
     margin-top: 10px;
 }
 
+.main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-image img{
-   max-height: 200px;
-   width: auto;
+   width: 60%;
 }
 
 /*when img shrinks it overflows past the blue border on the right*/
@@ -98,11 +105,23 @@
     gap: 10px;
 }
 
+.cards li{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 250px;
+}
+
+.cards p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cards img{
     border: 2px solid #3882F6;
     border-radius: 8px;
-    width: 100px;
-    height: auto;
+    width: 75%;
 }
 
 /*Figure out how to center the img subtext*/
@@ -113,7 +132,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .quote blockquote{
@@ -121,7 +140,7 @@
     font-style: italic;
     font-weight: light;
     color: #1F2937;
-    padding: 20px;
+    padding: 40px 80px;
     margin-bottom: -20px;
 }
 
@@ -129,14 +148,13 @@
     font-size: 24px;
     font-weight: bolder;
     align-self: flex-end;
-    margin-right: 45px;
 }
 
 .footer{
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 15px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
