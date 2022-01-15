@@ -46,7 +46,7 @@
     color: white;
     display: flex;
     flex-flow: row nowrap;
-    padding: 25px;
+    padding: 45px 0px;
 }
 
 .main button{
@@ -58,8 +58,11 @@
 }
 
 .main-image img{
-   height: 250px;
+   max-height: 200px;
+   width: auto;
 }
+
+/*when img shrinks it overflows past the blue border on the right*/
 
 .main h1{
     font-size: 48px;
@@ -76,6 +79,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    padding: 45px 0px;
 }
 
 .info-header{
