@@ -1,4 +1,5 @@
 * {
+    font-family: roboto, sans-serif;
     font-size: 14px;
     box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 10px 40px;
+    padding: 10px 100px;
 }
 
 .header-logo{
@@ -36,7 +37,7 @@ body{
 
 .header-links {
   display: flex;
-  gap: 15px;  
+  gap: 25px;  
 }
 
 .header-link {
@@ -49,10 +50,10 @@ body{
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: space-between;
+    gap: 40px;
     flex-flow: row nowrap;
-    padding: 45px 40px;
+    padding: 45px 100px;
 }
 
 .hero-text{
@@ -84,6 +85,7 @@ body{
 .hero-second {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -20px;
 }
 
 .info{
@@ -143,7 +145,7 @@ body{
 .quote blockquote{
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937;
     padding: 40px 100px;
     margin-bottom: -20px;
@@ -166,6 +168,10 @@ body{
     margin: 100px;
     padding: 10px 5px;
     border-radius: 8px;
+}
+
+.CTA-text h2{
+    color: white;
 }
 
 .CTA-text{
