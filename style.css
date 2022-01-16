@@ -163,13 +163,13 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px;
-    padding: 10px 25px;
+    margin: 100px;
+    padding: 10px 5px;
     border-radius: 8px;
 }
 
 .CTA-text{
-    margin: 0;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -181,12 +181,14 @@ body{
 }
 
 .CTA-text p{
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 .CTA-button{
+    font-size: 18px;
+    padding: 10px 20px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-color: #E5E7EB;
